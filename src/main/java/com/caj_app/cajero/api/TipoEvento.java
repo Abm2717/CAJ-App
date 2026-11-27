@@ -1,0 +1,5 @@
+package com.caj_app.cajero.api;
+
+public enum TipoEvento {
+	INTENTO_RECHAZADO, CARGO_APLICADO, RETIRO_COMPLETADO, RETIRO_REVERTIDO, PENDIENTE_CONCILIACION
+}
